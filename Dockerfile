@@ -4,8 +4,7 @@ FROM amaurer/centos_nginx_web
 # docker build --rm -t amaurer/homewebserver -t amaurer/homewebserver:0.2 . ### 
 
 # Run like...
-# docker run -m 100M -p 80:80 -p 443:443 amaurer/homewebserver.
-# docker run -m 100M -v /etc/ssl/certs/web/:/etc/ssl/certs/web/ -v /var/run/commbus/:/var/run/commbus/ amaurer/homewebserver .
+# docker run -m 100M -p 80:80 -p 443:443 -v /etc/ssl/certs/web/:/etc/ssl/certs/web/ -v /var/run/commbus/:/var/run/commbus/ amaurer/homewebserver 
 
 
 # A place for more apps
