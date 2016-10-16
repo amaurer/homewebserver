@@ -1,4 +1,4 @@
-FROM amaurer/docker-raspbian-nginx:0.1
+FROM amaurer/docker-raspbian-nginx:0.2
 
 # A place for more apps
 RUN mkdir /usr/share/nginx/apps
