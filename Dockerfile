@@ -8,7 +8,6 @@ RUN mkdir /etc/ssl/certs/web/
 
 # Communication folder for containers and host
 RUN mkdir /var/run/commbus/
-RUN mkdir /var/run/commbus/nginx/
 
 #nginx Config
 RUN rm /etc/nginx/nginx.conf
